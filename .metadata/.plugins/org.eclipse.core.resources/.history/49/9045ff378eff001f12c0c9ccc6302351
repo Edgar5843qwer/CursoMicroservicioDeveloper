@@ -1,0 +1,14 @@
+package com.proa.app.services;
+
+import org.springframework.stereotype.Service;
+
+//clase que implementa la interface IService
+
+//la clase la convierte en una clase inyectable con @Service
+@Service
+public class ServiceImpl implements IService {
+	
+	
+	
+
+}

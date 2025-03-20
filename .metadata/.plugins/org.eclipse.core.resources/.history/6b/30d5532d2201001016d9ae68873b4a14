@@ -1,0 +1,18 @@
+package com.proa.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.proa.app.services.IService;
+
+
+@RestController
+@RequestMapping("/order") //http://localhost:port/order
+public class MicroController {
+	
+	//inyeccion de la interface
+	@Autowired
+	private IService service;
+
+}
